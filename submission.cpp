@@ -32,4 +32,5 @@ int main(){
     Point firstPoint = {x1, y1};
     Point secondPoint = {x2, y2};
     std::cout << distance(firstPoint, secondPoint) << std::endl;
+    return 0;
 }
