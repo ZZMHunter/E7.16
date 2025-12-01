@@ -13,13 +13,13 @@
 #include <cmath>
 
 struct Point{
-    int x;
-    int y;
+    double x;
+    double y;
 };
 
 double distance(Point a, Point b){
-    double y = pow((double)b.y - a.y,2);
-    double x = pow((double)b.x - a.x,2);
+    double y = pow(b.y - a.y,2);
+    double x = pow(b.x - a.x,2);
     return sqrt(y+x);
 }
 
