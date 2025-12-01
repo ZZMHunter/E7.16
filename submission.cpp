@@ -24,7 +24,7 @@ double distance(Point a, Point b){
 }
 
 int main(){
-    int x1, x2, y1, y2;
+    double x1, x2, y1, y2;
     std::cin >> x1;
     std::cin >> y1;
     std::cin >> x2;
